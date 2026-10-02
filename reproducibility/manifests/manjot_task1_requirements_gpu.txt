@@ -1,0 +1,9 @@
+# GPU training environment (RunPod "Runpod Pytorch 2.8.0" template), run 20261002_045745
+GPU: NVIDIA GeForce RTX 4090 24GB, driver 580.159.04
+python==3.12.3
+torch==2.8.0+cu128
+numpy==2.1.2
+datasets==5.0.1
+pandas==3.0.6
+matplotlib==3.11.2
+pyyaml==6.0.3

@@ -1,0 +1,9 @@
+.venv/
+.deepeval/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*_ids.npy
+*_smoke_backup.ipynb
+task1_llm/*/checkpoints/*.pt
+!task1_llm/*/checkpoints/*_weights.pt

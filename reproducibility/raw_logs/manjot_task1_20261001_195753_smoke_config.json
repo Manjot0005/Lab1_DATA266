@@ -1,0 +1,26 @@
+{
+ "model": {
+  "vocab_size": 115,
+  "block_size": 256,
+  "n_layer": 4,
+  "n_head": 4,
+  "d_model": 256,
+  "dropout": 0.1
+ },
+ "train": {
+  "batch_size": 64,
+  "epochs": 2,
+  "lr": 0.0006,
+  "min_lr": 6e-05,
+  "warmup_frac": 0.03,
+  "weight_decay": 0.1,
+  "grad_clip": 1.0,
+  "eval_every": 25,
+  "eval_batches": 10
+ },
+ "seed": 42,
+ "device": "mps",
+ "gpu": "mps",
+ "torch": "2.14.1",
+ "n_params": 3284083
+}
