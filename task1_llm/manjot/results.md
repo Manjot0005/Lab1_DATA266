@@ -1,6 +1,6 @@
 # Task 1 – GPT-Style Character-Level LLM from Scratch (Manjot)
 
-**Run ID:** `20261002_045745` · **Final checkpoint:** `checkpoints/20261002_045745_epoch10.pt`
+**Run ID:** `20261002_045745` · **Final checkpoint:** `checkpoints/20261002_045745_epoch10_weights.pt`
 **Notebook:** `src/task1.ipynb` · **Metrics:** `metrics_report.csv` · **Failure analysis:** `failure_analysis.md`
 
 No prebuilt Transformer or attention modules were used (`nn.Transformer*`, `nn.MultiheadAttention` and `F.scaled_dot_product_attention` are all unused). Attention, causal masking and LayerNorm are implemented by hand.

@@ -1,7 +1,7 @@
 # Task 1 – Failure Analysis (Manjot)
 
 - **Model:** character-level GPT (4 layers, 4 heads, d_model 256, 3.28M parameters)
-- **Checkpoint:** `checkpoints/20261002_045745_epoch10.pt`
+- **Checkpoint:** `checkpoints/20261002_045745_epoch10_weights.pt`
 - **Samples analysed:** `outputs/samples_20261002_045745.txt` (25 samples: 5 greedy, 10 at temperature 0.7, 10 at temperature 1.0)
 
 ## Overall pattern
