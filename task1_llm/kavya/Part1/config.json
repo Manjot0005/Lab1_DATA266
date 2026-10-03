@@ -1,0 +1,22 @@
+{
+  "run_mode": "full",
+  "member_name": "Kavya",
+  "seed": 266,
+  "train_stories": 100000,
+  "val_stories": 10000,
+  "block_size": 128,
+  "d_model": 256,
+  "n_heads": 8,
+  "n_layers": 4,
+  "dropout": 0.1,
+  "batch_size": 64,
+  "epochs": 10,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "warmup_steps": 500,
+  "device": "cuda",
+  "steps_per_epoch": 10936,
+  "val_steps": 1097,
+  "train_character_tokens": 89582061,
+  "validation_character_tokens": 8983913
+}

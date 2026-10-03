@@ -1,0 +1,16 @@
+2026-10-03 06:22:02,814 | Part 1 run/session started
+2026-10-03 06:22:02,815 | Run mode: full
+2026-10-03 06:22:02,816 | Python: 3.12.3
+2026-10-03 06:22:02,817 | PyTorch: 2.8.0+cu128
+2026-10-03 06:22:02,817 | Device: cuda
+2026-10-03 06:22:02,818 | GPU: NVIDIA GeForce RTX 4090
+2026-10-03 06:29:12,984 | Epoch 01/10 | train_loss=1.0299 | val_loss=0.7827 | train_acc=0.6830 | val_acc=0.7514 | tok/s=251,824
+2026-10-03 06:35:23,272 | Epoch 02/10 | train_loss=0.7963 | val_loss=0.7359 | train_acc=0.7471 | val_acc=0.7661 | tok/s=257,497
+2026-10-03 06:41:53,266 | Epoch 03/10 | train_loss=0.7605 | val_loss=0.7122 | train_acc=0.7579 | val_acc=0.7730 | tok/s=243,612
+2026-10-03 06:48:25,468 | Epoch 04/10 | train_loss=0.7403 | val_loss=0.6974 | train_acc=0.7640 | val_acc=0.7774 | tok/s=242,230
+2026-10-03 06:54:56,484 | Epoch 05/10 | train_loss=0.7270 | val_loss=0.6865 | train_acc=0.7680 | val_acc=0.7809 | tok/s=242,822
+2026-10-03 07:01:44,072 | Epoch 06/10 | train_loss=0.7160 | val_loss=0.6782 | train_acc=0.7713 | val_acc=0.7835 | tok/s=232,611
+2026-10-03 07:08:16,975 | Epoch 07/10 | train_loss=0.7080 | val_loss=0.6718 | train_acc=0.7737 | val_acc=0.7854 | tok/s=241,862
+2026-10-03 07:14:36,968 | Epoch 08/10 | train_loss=0.7019 | val_loss=0.6669 | train_acc=0.7755 | val_acc=0.7867 | tok/s=250,487
+2026-10-03 07:21:02,764 | Epoch 09/10 | train_loss=0.6977 | val_loss=0.6653 | train_acc=0.7768 | val_acc=0.7873 | tok/s=246,445
+2026-10-03 07:28:04,776 | Epoch 10/10 | train_loss=0.6958 | val_loss=0.6637 | train_acc=0.7774 | val_acc=0.7878 | tok/s=224,178
