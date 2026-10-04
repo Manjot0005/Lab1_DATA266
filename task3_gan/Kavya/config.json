@@ -1,0 +1,16 @@
+{
+  "run_mode": "full",
+  "seed": 266,
+  "image_size": 256,
+  "batch_size": 1,
+  "epochs": 30,
+  "lr": 0.0002,
+  "beta1": 0.5,
+  "lambda_cycle": 10.0,
+  "lambda_identity": 5.0,
+  "n_residual_blocks": 6,
+  "checkpoint_every": 5,
+  "max_batches_per_epoch": null,
+  "eval_samples": 200,
+  "device": "cuda"
+}
