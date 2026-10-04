@@ -1,4 +1,4 @@
-# Part 3 Results
+# Part 3 Results — Kavya
 
 ## Architecture
 - CycleGAN with two ResNet-style generators and two PatchGAN discriminators
@@ -20,20 +20,17 @@
 - Device: NVIDIA GeForce RTX 4090 (RunPod cloud instance)
 
 ## Design Justification
-<!-- WRITE THIS SECTION YOURSELF. For each choice, give your reason and, where possible,
-     point to evidence from your own results (loss curves, metrics, sample images). -->
 
-- **6 residual blocks:** [Why 6 rather than 9 for 256×256 images? What did you trade off?]
-- **λ_cycle = 10, λ_id = 5:** [What does each loss enforce? What would happen if λ_cycle were much lower?]
-- **Learning rate 2e-4, β1 = 0.5:** [Why these values for GAN training? Avoid claiming you tested alternatives unless you did.]
-- **LSGAN (MSE) adversarial loss:** [Why least-squares instead of the original cross-entropy GAN loss?]
-- **Batch size 1:** [Why is batch size 1 common for CycleGAN / instance normalization?]
-- **30 epochs:** [Why this budget? Time per epoch was about 10 minutes on the RTX 4090.]
-- **Replay buffer:** [What problem does it address in discriminator training?]
+- **6 residual blocks:** _to be written_
+- **λ_cycle = 10, λ_id = 5:** _to be written_
+- **Learning rate 2e-4, β1 = 0.5:** _to be written_
+- **LSGAN (MSE) adversarial loss:** _to be written_
+- **Batch size 1:** _to be written_
+- **30 epochs:** _to be written_
+- **Replay buffer:** _to be written_
 
 ## How This Model Differs From My Teammate's
-<!-- WRITE THIS YOURSELF after comparing settings with your partner. -->
-[Which settings differ (residual blocks, λ values, learning rate, epochs, image size), and what did the comparison show?]
+_To be written._
 
 ## Training Behaviour and Stability
 Measured values:
@@ -43,10 +40,7 @@ Measured values:
 - Loss curves: `metrics/loss_curves.png`; per-epoch values: `metrics/training_history.csv`
 
 Analysis:
-<!-- WRITE THIS YOURSELF using the loss curves. Questions to address: -->
-[How did the cycle and identity losses behave over training? Why does D_B end much lower than D_A,
-and what does the rising G_gan loss suggest about the Monet-side discriminator vs. the generator?
-When did the gradient-norm spike occur, and did training stay stable?]
+_To be written._
 
 ## Local Evaluation
 
@@ -69,13 +63,12 @@ When did the gradient-norm spike occur, and did training stay stable?]
 - Content cosine similarity (input vs. translation): 0.840300
 
 ### Interpretation
-<!-- WRITE THIS YOURSELF. -->
-[What do the precision/recall differences between directions mean? Is the cycle constraint working,
-based on cycle L1 and LPIPS? How do the metrics relate to what you see in the images?]
+_To be written._
 
 ## Official Kaggle Evaluation
-Computed with the course-provided evaluator (`evaluate_local.ipynb`, executed outputs saved),
-using the first 300 sorted images per folder.
+Computed with the course-provided evaluator in a separate notebook (`evaluate_local.ipynb`, executed
+outputs saved), using the first 300 sorted images per folder. The training notebook ends with the
+local metrics and the environment manifest; the official scores come only from `evaluate_local.ipynb`.
 
 | Direction (evaluator naming) | Official FID | Official MiFID |
 |---|---|---|
@@ -85,7 +78,7 @@ using the first 300 sorted images per folder.
 
 - Kaggle score file: `submission.csv` (`ID,FID,MiFID`, one result row), uploaded unchanged
 - Team name: PairProgramming_Team_[NN]
-- Leaderboard rank: [record after submission — public/private]
+- Leaderboard rank: _to be recorded after submission_
 - Lower FID and MiFID are better.
 
 Notes on the official evaluation:
@@ -100,15 +93,12 @@ Notes on the official evaluation:
   and real-image set, so the two values are not directly comparable.
 
 ## Visual Quality
-<!-- WRITE THIS YOURSELF after reviewing outputs/pred_A2B/ and outputs/pred_B2A/.
-     See failure_analysis.md for the three concrete failure cases. -->
-[What works well in the translations? What typical artifacts or failures appear?]
+_To be written._
 
 ## Human Audit
-<!-- Fill after both raters complete human_audit_30.csv and the audit cell is rerun. -->
-- Mean scores (style / content / artifacts): [from audit cell]
-- Percent agreement and quadratic-weighted Cohen's kappa: [from audit cell]
-- Blinding procedure: [describe how outputs were anonymized between raters]
+- Mean scores (style / content / artifacts): _pending audit_
+- Percent agreement and quadratic-weighted Cohen's kappa: _pending audit_
+- Blinding procedure: _pending audit_
 
 The 1–5 ratings are ordinal, so quadratic-weighted Cohen's kappa is reported in addition to exact
 percent agreement.
@@ -125,17 +115,17 @@ percent agreement.
 - Scalar metrics do not capture every artifact, so visual review and the two-rater audit remain important.
 - Evaluation feature extractors (Inception, ResNet, AlexNet for LPIPS) use pretrained weights for
   evaluation only; the submitted images are produced solely by the trained CycleGAN generators.
-- [Your own limitations and what you would try next.]
+- _Further limitations and future work: to be written._
 
 ## Reproducibility and Evidence
 - Raw training log (all 30 epochs): `reproducibility/raw_logs/Kavya_task3_full.log`
 - Environment manifest: `reproducibility/manifests/Kavya_task3_manifest.txt`
 - Final generator weights (used for all reported results): `checkpoints/full/generators_final.pt`
 - Full resume checkpoint and epoch snapshots (~250 MB each) exceed GitHub's 100 MB limit:
-  [Google Drive link]
+  _link to be added_
 
 ## Files
-- Training notebook: `src/Part3_CycleGAN_VSCode.ipynb`
+- Training and local-evaluation notebook: `src/Part3_CycleGAN_VSCode.ipynb`
 - Official evaluator (executed): `evaluate_local.ipynb`
 - Official evaluation images (300 per direction): `outputs/official_photo2monet/`, `outputs/official_monet2photo/`
 - Evaluator folder links: `official_eval_data/`
