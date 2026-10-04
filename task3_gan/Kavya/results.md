@@ -29,8 +29,6 @@
 - **30 epochs:** _to be written_
 - **Replay buffer:** _to be written_
 
-## How This Model Differs From My Teammate's
-_To be written._
 
 ## Training Behaviour and Stability
 Measured values:
@@ -39,8 +37,6 @@ Measured values:
 - Final losses (epoch 30): G_total 3.109 · G_gan 1.267 · cycle 1.331 · identity 0.512 · D_A 0.156 · D_B 0.065
 - Loss curves: `metrics/loss_curves.png`; per-epoch values: `metrics/training_history.csv`
 
-Analysis:
-_To be written._
 
 ## Local Evaluation
 
@@ -61,9 +57,6 @@ _To be written._
 - Cycle L1: 0.066821
 - LPIPS (input vs. cycle reconstruction): 0.221538
 - Content cosine similarity (input vs. translation): 0.840300
-
-### Interpretation
-_To be written._
 
 ## Official Kaggle Evaluation
 Computed with the course-provided evaluator in a separate notebook (`evaluate_local.ipynb`, executed
@@ -91,9 +84,6 @@ Notes on the official evaluation:
   index-paired Inception features of real and generated images, not the standard memorization-penalized FID.
 - **Local vs. official FID:** the local TorchMetrics FID uses up to 200 images and a different implementation
   and real-image set, so the two values are not directly comparable.
-
-## Visual Quality
-_To be written._
 
 ## Human Audit
 - Mean scores (style / content / artifacts): _pending audit_
