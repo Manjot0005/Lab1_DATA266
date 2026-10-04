@@ -1,4 +1,4 @@
-# Part 3 Results — Kavya
+# Part 3 Results
 
 ## Architecture
 - CycleGAN with two ResNet-style generators and two PatchGAN discriminators
