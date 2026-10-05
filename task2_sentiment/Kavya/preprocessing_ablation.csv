@@ -1,0 +1,3 @@
+preprocess_mode,ablation_train_rows,ablation_val_rows,vocab_size,accuracy,macro_f1
+basic,16000,4000,20000,0.8245,0.8244989031181444
+stop_stem,16000,4000,15716,0.8455,0.8452824284149585

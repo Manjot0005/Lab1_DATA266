@@ -1,0 +1,23 @@
+2026-10-05 05:06:01,685 | Part 2 run/session started
+2026-10-05 05:06:01,686 | Run mode=full | preprocessing=stop_stem
+2026-10-05 05:06:01,686 | Python=3.12.3 | PyTorch=2.8.0+cu128 | Device=cuda
+2026-10-05 05:06:01,687 | GPU=NVIDIA GeForce RTX 4090
+2026-10-05 07:31:40,678 | Part 2 run/session started
+2026-10-05 07:31:40,679 | Run mode=full | preprocessing=stop_stem
+2026-10-05 07:31:40,680 | Python=3.12.3 | PyTorch=2.8.0+cu128 | Device=cuda
+2026-10-05 07:31:40,681 | GPU=NVIDIA GeForce RTX 4090
+2026-10-05 07:37:45,284 | baseline_mean_mlp | epoch=1/5 | loss=0.2598 | acc=0.8926 | ex/s=1948.5
+2026-10-05 07:39:30,368 | baseline_mean_mlp | epoch=2/5 | loss=0.1805 | acc=0.9311 | ex/s=1903.3
+2026-10-05 07:41:16,382 | baseline_mean_mlp | epoch=3/5 | loss=0.1594 | acc=0.9399 | ex/s=1886.6
+2026-10-05 07:43:01,399 | baseline_mean_mlp | epoch=4/5 | loss=0.1458 | acc=0.9450 | ex/s=1904.5
+2026-10-05 07:44:47,166 | baseline_mean_mlp | epoch=5/5 | loss=0.1340 | acc=0.9495 | ex/s=1891.0
+2026-10-05 07:46:53,690 | experimental_textcnn | epoch=1/5 | loss=0.3083 | acc=0.8664 | ex/s=1892.2
+2026-10-05 07:48:38,073 | experimental_textcnn | epoch=2/5 | loss=0.2096 | acc=0.9163 | ex/s=1916.1
+2026-10-05 07:50:21,522 | experimental_textcnn | epoch=3/5 | loss=0.1787 | acc=0.9307 | ex/s=1933.4
+2026-10-05 07:52:06,866 | experimental_textcnn | epoch=4/5 | loss=0.1536 | acc=0.9418 | ex/s=1898.6
+2026-10-05 07:53:51,209 | experimental_textcnn | epoch=5/5 | loss=0.1289 | acc=0.9516 | ex/s=1916.8
+2026-10-05 07:55:57,062 | experimental_bilstm | epoch=1/5 | loss=0.2220 | acc=0.9087 | ex/s=1908.4
+2026-10-05 07:57:41,305 | experimental_bilstm | epoch=2/5 | loss=0.1393 | acc=0.9467 | ex/s=1918.6
+2026-10-05 07:59:25,779 | experimental_bilstm | epoch=3/5 | loss=0.1076 | acc=0.9603 | ex/s=1914.4
+2026-10-05 08:01:08,723 | experimental_bilstm | epoch=4/5 | loss=0.0766 | acc=0.9727 | ex/s=1942.8
+2026-10-05 08:02:53,504 | experimental_bilstm | epoch=5/5 | loss=0.0474 | acc=0.9836 | ex/s=1908.8

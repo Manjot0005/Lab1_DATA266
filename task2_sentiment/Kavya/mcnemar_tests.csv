@@ -1,0 +1,3 @@
+b,c,p_value,comparison
+970,1358,9.042644164475761e-16,baseline_mean_mlp vs experimental_textcnn
+857,1518,2.580566240475436e-42,baseline_mean_mlp vs experimental_bilstm

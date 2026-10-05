@@ -1,0 +1,7 @@
+{
+  "version": "escaped_sequences_v1",
+  "escaped_newline_tab_cleanup": true,
+  "escaped_unicode_cleanup": true,
+  "escaped_hex_cleanup": true,
+  "final_mode": "stop_stem"
+}

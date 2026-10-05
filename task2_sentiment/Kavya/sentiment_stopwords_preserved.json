@@ -1,0 +1,20 @@
+{
+  "preserved_from_stopword_removal": [
+    "against",
+    "but",
+    "cannot",
+    "few",
+    "less",
+    "neither",
+    "never",
+    "no",
+    "nobody",
+    "none",
+    "nor",
+    "not",
+    "nothing",
+    "too",
+    "very",
+    "without"
+  ]
+}
