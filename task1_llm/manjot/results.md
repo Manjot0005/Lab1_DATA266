@@ -47,9 +47,9 @@ No prebuilt Transformer or attention modules were used (`nn.Transformer*`, `nn.M
 **Why these sizes:** About 3.3M parameters is a good fit for about 90M training characters (roughly 27 characters per parameter). It is large enough to learn spelling, grammar and simple story structure, and small enough to train 10 epochs in about 30 minutes. Block size 256 covers about a third of an average story; longer contexts would cost more, because attention is O(T²).
 
 **Sanity checks before training:**
-- Initial loss 4.863, close to the theoretical ln(115) = 4.745 for uniform guessing.
+- Initial loss 4.862, close to the theoretical ln(115) = 4.745 for uniform guessing.
 - **Causality test:** changing the character at position 100 left the predictions for positions 0–99 unchanged (`True`) and changed the predictions from position 100 onward (`True`).
-- Overfitting a single batch: loss went from 4.74 to 0.13 in 200 steps, confirming the model can learn.
+- Overfitting a single batch: loss went from 4.73 to 0.065 in 200 steps, confirming the model can learn.
 
 ---
 
