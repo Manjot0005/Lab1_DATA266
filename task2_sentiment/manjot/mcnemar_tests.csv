@@ -1,0 +1,3 @@
+comparison,b,c,statistic,p_value,test,acc_baseline,acc_other,significant_at_0.05
+baseline_fasttext_bigram vs exp1_bigru_attention,521,1548,508.78492025132914,1.1656866918232537e-112,chi2_cc,0.9324736842105263,0.9595,True
+baseline_fasttext_bigram vs exp2_transformer,885,892,0.020258863252673044,0.8868164811939849,chi2_cc,0.9324736842105263,0.9326578947368421,False

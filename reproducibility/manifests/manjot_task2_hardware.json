@@ -1,0 +1,12 @@
+{
+ "run_id": "20261005_024159",
+ "device": "cuda",
+ "python": "3.12.3",
+ "torch": "2.8.0+cu128",
+ "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+ "cpu": "x86_64",
+ "cpu_count": 96,
+ "gpu": "NVIDIA GeForce RTX 4090",
+ "gpu_mem_gb": 25.3,
+ "cuda": "12.8"
+}

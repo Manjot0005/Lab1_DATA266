@@ -1,0 +1,18 @@
+{
+ "vocab_size": 60000,
+ "distinct_train_tokens": 180141,
+ "lemmatizer": "wordnet",
+ "tokens_p50": 49.0,
+ "tokens_p95": 184.0,
+ "tokens_p99": 299.0,
+ "pct_truncated": 1.742293233082707,
+ "test_oov_rate_pct": 0.49562327508372445,
+ "removed_train": {
+  "empty": 0,
+  "duplicates": 0,
+  "test_leakage": 0
+ },
+ "removed_test": {
+  "empty": 0
+ }
+}

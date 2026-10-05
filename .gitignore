@@ -19,3 +19,9 @@ task3_gan/*/outputs_*/
 .deepeval/
 task3_gan/data/
 task3_gan/*/outputs/training_samples/
+task2_sentiment/data/hf_cache/
+task2_sentiment/*/checkpoints/
+task2_sentiment/*/outputs/smoke/
+*_smoke.csv
+*_smoke.json
+*_smoke.ipynb

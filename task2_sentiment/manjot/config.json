@@ -1,0 +1,31 @@
+{
+ "max_train": null,
+ "max_test": null,
+ "val_frac": 0.05,
+ "max_len": 256,
+ "max_vocab": 60000,
+ "min_freq": 3,
+ "batch": 256,
+ "bootstrap": 1000,
+ "ablation_rows": 60000,
+ "models": {
+  "baseline_fasttext_bigram": {
+   "epochs": 5,
+   "lr": 0.005,
+   "wd": 0.0,
+   "amp": true
+  },
+  "exp1_bigru_attention": {
+   "epochs": 4,
+   "lr": 0.002,
+   "wd": 0.01,
+   "amp": false
+  },
+  "exp2_transformer": {
+   "epochs": 5,
+   "lr": 0.0005,
+   "wd": 0.01,
+   "amp": true
+  }
+ }
+}
