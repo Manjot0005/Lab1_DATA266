@@ -1,0 +1,16 @@
+{
+ "run_id": "20261004_132659_r4C_seed7",
+ "steps": 300000,
+ "epochs": 1000,
+ "steps_per_epoch": 300,
+ "total_time": 43728.1,
+ "total_time_s": 43728.1,
+ "quick_fid_time_s": 5921.1,
+ "nan_count": 0,
+ "peak_mem_gb": 1.864697856,
+ "params_total": 28285832,
+ "diffaug": true,
+ "best_epoch": 910,
+ "best_source": "raw",
+ "best_quick_fid_avg": 100.06388705539766
+}

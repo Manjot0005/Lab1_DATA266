@@ -1,0 +1,16 @@
+{
+ "run_id": "20261004_132142_r4A",
+ "steps": 300000,
+ "epochs": 1000,
+ "steps_per_epoch": 300,
+ "total_time": 39311.5,
+ "total_time_s": 39311.5,
+ "quick_fid_time_s": 5016.1,
+ "nan_count": 0,
+ "peak_mem_gb": 1.864697856,
+ "params_total": 28285832,
+ "diffaug": true,
+ "best_epoch": 900,
+ "best_source": "raw",
+ "best_quick_fid_avg": 97.89884728699104
+}

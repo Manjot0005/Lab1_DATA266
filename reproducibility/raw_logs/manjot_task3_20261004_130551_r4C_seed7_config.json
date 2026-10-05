@@ -1,0 +1,37 @@
+{
+ "G": {
+  "ngf": 64,
+  "n_res": 9,
+  "upsample": "convtranspose"
+ },
+ "D": {
+  "ndf": 64,
+  "n_layers": 3
+ },
+ "train": {
+  "epochs": 1000,
+  "decay_start": 500,
+  "steps_per_epoch": 300,
+  "batch_size": 1,
+  "lr": 0.0002,
+  "betas": [
+   0.5,
+   0.999
+  ],
+  "lambda_cyc": 10.0,
+  "lambda_id": 0.5,
+  "ema": 0.999,
+  "pool_size": 50,
+  "diffaug": true,
+  "eval_every": 10,
+  "n_fid": 300,
+  "log_every": 100,
+  "sample_every": 3000
+ },
+ "seed": 7,
+ "device": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4090",
+ "torch": "2.8.0+cu128",
+ "params_G_each": 11378179,
+ "params_D_each": 2764737
+}

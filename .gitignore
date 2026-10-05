@@ -7,3 +7,15 @@ __pycache__/
 *_smoke_backup.ipynb
 task1_llm/*/checkpoints/*.pt
 !task1_llm/*/checkpoints/*_weights.pt
+task3_gan/data/monet_jpg/
+task3_gan/data/photo_jpg/
+task3_gan/*/checkpoints/*.pt
+
+# Task 3: large or duplicate outputs (full predictions are in the Drive zip)
+task3_gan/*/outputs/pred_A2B/
+task3_gan/*/outputs/pred_B2A/
+task3_gan/*/outputs_*/
+*_smoke*
+.deepeval/
+task3_gan/data/
+task3_gan/*/outputs/training_samples/

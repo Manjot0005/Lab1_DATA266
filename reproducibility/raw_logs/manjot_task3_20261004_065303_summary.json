@@ -1,0 +1,15 @@
+{
+ "run_id": "20261004_065303",
+ "steps": 135000,
+ "epochs": 450,
+ "steps_per_epoch": 300,
+ "total_time": 12910.1,
+ "total_time_s": 12910.1,
+ "quick_fid_time_s": 2826.2,
+ "nan_count": 0,
+ "peak_mem_gb": 1.765284864,
+ "params_total": 28285832,
+ "diffaug": true,
+ "best_epoch": 410,
+ "best_quick_fid_avg": 104.76161894663127
+}
