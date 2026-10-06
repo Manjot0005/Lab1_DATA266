@@ -1,5 +1,7 @@
 # DATA 266 Lab 1 — Team 48 (Manjot Kaur, Kavya Ayyappan)
 
+combined report -> under drive : https://drive.google.com/drive/folders/1FfUAhd_4UzgtnglmbtfXi8mLuMJyVtMU
+
 Three deep-learning systems built from scratch, each implemented independently by both members:
 
 | Part | Task | Best result |
