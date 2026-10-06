@@ -15,34 +15,34 @@ I randomly reviewed images from both `pred_A2B` and `pred_B2A`. These were some 
 
 ### A2B — Photo to Monet
 
-- **Sample: `photo_to_monet_00075.jpg`**
+- **Picture 1: `photo_to_monet_00075.jpg`**
   - The Monet style is visible, but the sky has a very strong bright streak that looks unnatural.
   - Some areas around the trees and sky look blended together.
   - The model seems to add painterly texture too strongly in the bright parts of the image.
 
-- **Sample: `photo_to_monet_00019.jpg`**
+- **Picture 2: `photo_to_monet_00019.jpg`**
   - The image has the right painted look, but many small details are lost.
   - The trees and buildings look mixed together and a little messy.
   - The model captures the colors well, but the scene structure becomes less clear.
 
-- **Sample: `photo_to_monet_00124.jpg`**
+- **Picture 3: `photo_to_monet_00124.jpg`**
   - The snowy scene is recognizable, but some rocks and dark areas look like sharp black smears.
   - Fine details in the snow are replaced by rough brush-like patches.
   - This may happen because the model focuses more on texture than keeping exact object shapes.
 
 ### B2A — Monet to Photo
 
-- **Sample: `monet_to_photo_00159.jpg`**
+- **Picture 1: `monet_to_photo_00159.jpg`**
   - The scene looks more realistic, but the grass is very yellow and oversaturated.
   - Some painted texture is still visible instead of looking fully photographic.
   - The model improves realism, but the color balance is not always natural.
 
-- **Sample: `monet_to_photo_00027.jpg`**
+- **Picture 2: `monet_to_photo_00027.jpg`**
   - The path and landscape are recognizable, but parts of the trees and hillside look blurry.
   - The center of the image has a soft, stretched look.
   - The model has trouble turning painted edges into clean photographic details.
 
-- **Sample: `monet_to_photo_00128.jpg`**
+- **Picture 3: `monet_to_photo_00128.jpg`**
   - This is the clearest failure among the samples I checked.
   - The trees and water have strong white smears and repeated blurry patterns.
   - The reflections do not look natural and some object boundaries are hard to identify.
