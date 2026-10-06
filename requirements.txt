@@ -1,2 +1,19 @@
-cryptography==41.0.7
-pytest==7.4.3 
+# DATA 266 Lab 1 — Team 48
+# Exact versions used for each final run are in reproducibility/manifests/.
+# For a CUDA build of PyTorch, install torch/torchvision from https://pytorch.org first.
+torch>=2.8
+torchvision>=0.23
+numpy>=2.1
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+matplotlib>=3.9
+pillow>=10.0
+tqdm>=4.66
+datasets>=3.0
+nltk>=3.9
+lpips>=0.1.4
+torchmetrics>=1.4
+jupyter
+nbconvert>=7.16
+ipykernel>=6.29
