@@ -114,16 +114,16 @@ curves: `metrics_report.csv`, `outputs/confusion_*.csv`, `outputs/eval_curves_al
    (sentiment is explicit). Review length matters little because head + tail truncation keeps both ends.
 
 **Team comparison.** Teammate Kavya trained Mean-Embedding MLP, TextCNN and BiLSTM on a 200k subset with Porter
-stemming (Tesla T4). Kavya's numbers are from her notebook (`Kavya/src/Part2_Yelp_Sentiment_FINAL.ipynb`; 200k-review training subset):
+stemming (RTX 4090). Kavya's numbers are from `Kavya/metrics_report.csv` (notebook `Kavya/src/task2.ipynb`; 200k-review training subset):
 
 | Member | Model | Test accuracy | Macro-F1 | ROC-AUC | Train time | Hardware |
 |---|---|---|---|---|---|---|
 | manjot | fastText bigram | 0.9325 | 0.9325 | 0.9788 | 45 s | RTX 4090 |
 | manjot | BiGRU + attention | 0.9595 | 0.9595 | 0.9926 | 662 s | RTX 4090 |
 | manjot | Transformer | 0.9327 | 0.9327 | 0.9828 | 273 s | RTX 4090 |
-| Kavya | Mean-Embedding MLP | 0.9222 | 0.9222 | see Kavya/metrics_report.csv | — | Tesla T4 |
-| Kavya | TextCNN | 0.9320 | 0.9320 | see Kavya/metrics_report.csv | — | Tesla T4 |
-| Kavya | BiLSTM | 0.9376 | 0.9375 | see Kavya/metrics_report.csv | — | Tesla T4 |
+| Kavya | Mean-Embedding MLP | 0.9222 | 0.9222 | 0.9749 | 525 s | RTX 4090 |
+| Kavya | TextCNN | 0.9324 | 0.9324 | 0.9816 | 523 s | RTX 4090 |
+| Kavya | BiLSTM | 0.9396 | 0.9396 | 0.9848 | 521 s | RTX 4090 |
 
 ## 5. Limitations and future work
 
@@ -137,4 +137,4 @@ stemming (Tesla T4). Kavya's numbers are from her notebook (`Kavya/src/Part2_Yel
   a longer/larger Transformer budget or masked-LM pre-training on Yelp itself (still "from scratch") to test whether the
   Transformer gap is data or architecture.
 
-**Team takeaway.** Both members' sequence models beat their bag-of-words baselines (Kavya: BiLSTM 0.9376 vs mean-MLP 0.9222; manjot: BiGRU 0.9595 vs fastText 0.9325). Both found the most accurate model was *less* calibrated (higher ECE) than its baseline. The full-data BiGRU is the best team model; part of the gap to the BiLSTM comes from 2.7x more training data.
+**Team takeaway.** Both members' sequence models beat their bag-of-words baselines (Kavya: BiLSTM 0.9396 vs mean-MLP 0.9222; manjot: BiGRU 0.9595 vs fastText 0.9325). Both found the most accurate model was *less* calibrated (higher ECE) than its baseline. The full-data BiGRU is the best team model; part of the gap to the BiLSTM comes from 2.7x more training data.

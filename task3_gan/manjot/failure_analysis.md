@@ -54,30 +54,28 @@ Picking the final epoch would therefore be partly luck.
 **What was done:** best-checkpoint selection on the quick FID, plus EMA weights (run 4). EMA smooths this oscillation
 and gave the lowest FIDs.
 
-## Part B — Visual failure cases (from `sample_preds/`)
+## Part B — Visual failure cases (from my 30-pair human audit)
 
-> Fill this table from your own inspection of `sample_preds/` and `training_milestones/`. Pick 5–6 clear examples and
-> include file names so a grader can open them. The categories below are the usual CycleGAN failures to look for.
+From `human_audit/ratings_manjot.csv` (run 4A, seed 266). Images: `human_audit/img/<id>_photo.jpg` and `<id>_monet.jpg`.
 
-| # | File | Direction | What goes wrong | Failure type | Likely cause | Fix to test |
-|---|---|---|---|---|---|---|
-| 1 | _TODO_ | B2A | e.g. sky/water area left almost unchanged, only colour-shifted | weak stylisation on flat regions | little texture for the generator to "paint"; the cycle loss rewards copying | lower λ_id; patch-level texture loss |
-| 2 | _TODO_ | B2A | e.g. people/faces/text smeared or distorted | geometry change on fine structures | CycleGAN only changes texture; Monet set has few people | — (known limitation) |
-| 3 | _TODO_ | B2A | e.g. night or indoor photo turned into a washed-out daytime palette | colour/illumination hallucination | Monet set is mostly daylight landscapes | colour-histogram loss; identity loss |
-| 4 | _TODO_ | A2B | e.g. "photo" still shows brush strokes or looks blurry | incomplete translation | 300 Monet inputs; A1 above | see A1 |
-| 5 | _TODO_ | either | e.g. checkerboard or grid pattern | upsampling artefact | transposed convolutions | resize-conv (tried in run 2, hurt FID) |
-| 6 | _TODO_ | B2A | e.g. very good result, for contrast | success case | — | — |
+| # | Audit id (file) | Score | What goes wrong (my note) | Failure type |
+|---|---|---|---|---|
+| 1 | 01 (`7c384a7ede.jpg`) | 1 | green-olive stain over night sky; darkness lost | colour/illumination shift |
+| 2 | 06 (`6d75effae7.jpg`) | 1 | snow turned yellow-beige; sky teal | colour/illumination shift |
+| 3 | 26 (`36bafe2801.jpg`) | 1 | black background turned olive green | colour/illumination shift |
+| 4 | 08 (`e8a6213a64.jpg`) | 1 | red blotches on face and arm; skin texture smeared | fine-structure distortion |
+| 5 | 11 (`cfbca208c3.jpg`) | 2 | purple tint on hills; patterned artifact top centre | texture artefact |
+| 6 | 03 (`25eba9fa76.jpg`) | 2 | washed out; blue sky gone | washed-out palette |
 
-## Human audit (30 samples, 2 raters)
+Similar: washed out on 04 and 09; blocky sky on 10; colour casts on 16, 19, 30. The 18 images rated 3 had no note.
 
-> _TODO_: 30 random photo→Monet pairs, each rated by both team members (1 = fails, 2 = partly Monet, 3 = convincing
-> Monet with content kept). Report the mean score per rater and Cohen's κ for agreement.
+## Human audit (30 samples)
 
-| Rater | Mean score | % rated 3 |
-|---|---|---|
-| manjot | | |
-| Kavya | | |
-| Cohen's κ | | |
+| Rater | Mean (1–3) | % rated 3 | % rated 1 |
+|---|---|---|---|
+| manjot | 2.47 | 60.0 % (18/30) | 13.3 % (4/30) |
+| Kavya | not done (single-rater audit) | — | — |
+| Cohen's κ | not computed (one rater) | | |
 
 ## Summary
 The main measurable weaknesses are (1) low coverage in the Monet→photo direction, (2) a style-versus-content trade-off
