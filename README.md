@@ -55,3 +55,15 @@ pytest
 
 - Python 3.8 or higher
 - Dependencies listed in requirements.txt 
+## Large files (Google Drive)
+
+GitHub rejected pushes of the large binaries, so they are in this Drive folder (view access for anyone with the link):
+**https://drive.google.com/drive/folders/1FfUAhd_4UzgtnglmbtfXi8mLuMJyVtMU?usp=share_link**
+
+| File | Contents | Put it at |
+|---|---|---|
+| `lab1_task3_data.zip` (131 MB) | Kaggle Monet/photo data + `real_stats.npz` | unzip at repo root -> `task3_gan/data/` |
+| `lab1_task3_predictions_manjot.zip` (98 MB) | `pred_B2A/` (7,038), `pred_A2B/` (300), `submission.csv` | unzip at repo root -> `task3_gan/manjot/outputs/` |
+| `lab1_checkpoints_manjot.zip` (319 MB) | Task 1 epoch-10, Task 2 three models, Task 3 run-4A generators | unzip at repo root -> each `task*/manjot/checkpoints/` |
+
+The zips keep the repo-relative paths, so `unzip <file>.zip` from the repo root puts everything in place.
