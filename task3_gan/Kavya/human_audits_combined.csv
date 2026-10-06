@@ -14,11 +14,11 @@ sample_id,source_photo_filename,generated_filename,rater1_style,rater1_content,r
 13,03950208ff.jpg,photo_to_monet_00080.jpg,3,5,5,3,5,4
 14,03ae080a47.jpg,photo_to_monet_00084.jpg,3,5,4,5,5,5
 15,042f0e804d.jpg,photo_to_monet_00100.jpg,4,4,4,3,3,5
-16,0436aaaf16.jpg,photo_to_monet_00102.jpg,5,4,5,3,3,1
+16,0436aaaf16.jpg,photo_to_monet_00102.jpg,5,4,5,3,3,3
 17,047acab66b.jpg,photo_to_monet_00111.jpg,3,5,4,2,2,5
 18,0541ce0c1a.jpg,photo_to_monet_00139.jpg,4,4,3,4,4,3
 19,057d83cdee.jpg,photo_to_monet_00149.jpg,4,5,4,5,3,5
-20,05ca68299e.jpg,photo_to_monet_00155.jpg,5,4,5,1,4,4
+20,05ca68299e.jpg,photo_to_monet_00155.jpg,5,4,5,3,4,4
 21,05f4b38e6e.jpg,photo_to_monet_00160.jpg,4,4,4,4,5,5
 22,0665264678.jpg,photo_to_monet_00172.jpg,2,5,4,4,3,3
 23,066b81e0f9.jpg,photo_to_monet_00173.jpg,3,5,4,5,5,5
