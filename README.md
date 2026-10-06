@@ -67,3 +67,4 @@ GitHub rejected pushes of the large binaries, so they are in this Drive folder (
 | `lab1_checkpoints_manjot.zip` (319 MB) | Task 1 epoch-10, Task 2 three models, Task 3 run-4A generators | unzip at repo root -> each `task*/manjot/checkpoints/` |
 
 The zips keep the repo-relative paths, so `unzip <file>.zip` from the repo root puts everything in place.
+| `checkpoints_task2.zip` (74 MB, Kavya) | Kavya's Task 2 MLP, TextCNN, BiLSTM weights | `task2_sentiment/Kavya/checkpoints/` |
