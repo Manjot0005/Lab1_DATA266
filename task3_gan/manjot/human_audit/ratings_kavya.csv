@@ -1,31 +1,31 @@
 id,file,score_1to3,note
-01,7c384a7ede.jpg,,
-02,add673f629.jpg,,
-03,25eba9fa76.jpg,,
-04,ec509fe942.jpg,,
-05,e576d76af6.jpg,,
-06,6d75effae7.jpg,,
-07,00fcff630e.jpg,,
-08,e8a6213a64.jpg,,
-09,318d2dd948.jpg,,
-10,49dc3fd195.jpg,,
-11,cfbca208c3.jpg,,
-12,c9347e1e7b.jpg,,
-13,28cf136409.jpg,,
-14,95f5d9ab48.jpg,,
-15,746f2cd1d2.jpg,,
-16,11068aa40b.jpg,,
-17,7fb0f42377.jpg,,
-18,db4fd99e56.jpg,,
-19,7fb1cad955.jpg,,
-20,72669a9943.jpg,,
-21,1866c56f7a.jpg,,
-22,b6d84ce05d.jpg,,
-23,5c068c34b2.jpg,,
-24,f384c39cd3.jpg,,
-25,3bd9ddc108.jpg,,
-26,36bafe2801.jpg,,
-27,c2e0f637ed.jpg,,
-28,59344b7884.jpg,,
-29,5ca98fc2af.jpg,,
-30,1701c26348.jpg,,
+01,photo_to_monet_00038.jpg,3,Convincing Monet-like colors and brush texture; scene stays clear.
+02,photo_to_monet_00042.jpg,3,Strong painterly effect with good landscape structure.
+03,photo_to_monet_00020.jpg,2,"Monet style is visible, but bright areas are washed out."
+04,photo_to_monet_00001.jpg,3,Good texture and color transfer while preserving the scene.
+05,photo_to_monet_00195.jpg,3,Convincing forest rendering with natural painterly detail.
+06,photo_to_monet_00134.jpg,2,"Some painterly effect, but power lines and structure look distorted."
+07,photo_to_monet_00062.jpg,2,"Style is present, but the image is overly pale and loses detail."
+08,photo_to_monet_00129.jpg,3,Strong impressionist look with good content preservation.
+09,photo_to_monet_00079.jpg,3,Good stylization and dramatic sky; city structures remain recognizable.
+10,photo_to_monet_00044.jpg,2,"Painterly result, but the road and vehicles are blurred and distorted."
+11,photo_to_monet_00084.jpg,3,Good Monet-like texture with recognizable mountain content.
+12,photo_to_monet_00095.jpg,3,Strong color and brushwork; scene remains coherent.
+13,photo_to_monet_00107.jpg,1,Heavy smearing and loss of structure; not convincing.
+14,photo_to_monet_00030.jpg,3,Good soft colors and painterly water treatment.
+15,photo_to_monet_00183.jpg,3,Convincing stylization with strong mountain structure.
+16,photo_to_monet_00063.jpg,3,Strong painterly transformation; minor artifacts but overall convincing.
+17,photo_to_monet_00049.jpg,3,Good Monet-like light and texture with preserved subjects.
+18,photo_to_monet_00098.jpg,3,Convincing landscape translation with strong color treatment.
+19,photo_to_monet_00037.jpg,1,Large dark/smeared artifact reduces visual quality significantly.
+20,photo_to_monet_00006.jpg,3,Good painterly sea scene with reasonable detail preservation.
+21,photo_to_monet_00074.jpg,2,"Monet style is visible, but watermark/text remains distracting."
+22,photo_to_monet_00036.jpg,2,Moderate translation; vertical distortion reduces realism.
+23,photo_to_monet_00143.jpg,3,Good stylization with preserved mountain and foreground structure.
+24,photo_to_monet_00189.jpg,1,Severe dark banding/smearing; image structure is poorly preserved.
+25,photo_to_monet_00158.jpg,2,"Painterly effect is present, but composition has noticeable artifacts."
+26,photo_to_monet_00125.jpg,1,Heavy blur and vertical artifacting make the result unconvincing.
+27,photo_to_monet_00024.jpg,2,Partial success; painterly sky is good but object edges are distorted.
+28,photo_to_monet_00076.jpg,3,Strong landscape stylization with good content retention.
+29,photo_to_monet_00065.jpg,3,Good Monet-like winter scene with coherent structure.
+30,photo_to_monet_00181.jpg,3,Convincing painterly water and sky; minor watermark artifact.
